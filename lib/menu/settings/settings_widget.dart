@@ -497,6 +497,8 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                         await authManager.signOut();
                         GoRouter.of(context).clearRedirectLocation();
 
+                        AppStateNotifier.instance.setTwoFactorVerified(false);
+
                         context.goNamedAuth('SignIn', context.mounted);
                       },
                       text: FFLocalizations.of(context).getText(
