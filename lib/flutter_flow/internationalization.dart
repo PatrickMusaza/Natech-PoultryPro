@@ -322,6 +322,29 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': '',
     },
   },
+  //Two Factor Authentication
+  {
+    'g56ftqzd': {
+      'en': 'Two Factor Authentication',
+      'fr': '',
+    },
+    'fe6y96f2': {
+      'en': 'Please enter the 6-digit code sent to your email address to continue.',
+      'fr': '',
+    },
+    'a5v9eyr3': {
+      'en': "Didn't receive Code",
+      'fr': '',
+    },
+    'ynz0u123': {
+      'en': 'Verify',
+      'fr': '',
+    },
+    'bn3uh1e3': {
+      'en': 'Resend Code',
+      'fr': '',
+    },
+  },
   // onboard
   {
     '5jecl89m': {
