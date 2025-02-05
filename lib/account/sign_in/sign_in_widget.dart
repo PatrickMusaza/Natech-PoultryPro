@@ -534,8 +534,13 @@ class _SignInWidgetState extends State<SignInWidget> {
                                                     if (user == null) {
                                                       return;
                                                     }
+                                                    // Send the verification code to the user's email
+                                                    await authManager
+                                                        .sendEmailVerificationCode(currentUserEmail);
 
-                                                    context.goNamedAuth('Home',
+                                                    // Navigate to the 2FA screen
+                                                    context.goNamedAuth(
+                                                        'twoFactorAuthentication',
                                                         context.mounted);
                                                   },
                                                   text: FFLocalizations.of(
@@ -724,8 +729,13 @@ class _SignInWidgetState extends State<SignInWidget> {
                                                     if (user == null) {
                                                       return;
                                                     }
+                                                    // Send the verification code to the user's email
+                                                    await authManager
+                                                        .sendEmailVerificationCode(currentUserEmail);
 
-                                                    context.goNamedAuth('Home',
+                                                    // Navigate to the 2FA screen
+                                                    context.goNamedAuth(
+                                                        'twoFactorAuthentication',
                                                         context.mounted);
                                                   },
                                                   text: FFLocalizations.of(
@@ -809,8 +819,13 @@ class _SignInWidgetState extends State<SignInWidget> {
                                                     if (user == null) {
                                                       return;
                                                     }
+                                                    // Send the verification code to the user's email
+                                                    await authManager
+                                                        .sendEmailVerificationCode(currentUserEmail);
 
-                                                    context.goNamedAuth('Home',
+                                                    // Navigate to the 2FA screen
+                                                    context.goNamedAuth(
+                                                        'twoFactorAuthentication',
                                                         context.mounted);
                                                   },
                                                   text: FFLocalizations.of(
