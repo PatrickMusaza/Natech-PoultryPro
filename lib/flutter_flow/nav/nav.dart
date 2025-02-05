@@ -43,6 +43,15 @@ class AppStateNotifier extends ChangeNotifier {
   bool _onboardingComplete = false;
   bool get onboardingComplete => _onboardingComplete;
 
+  // Track if user has completed 2FA
+  bool _isTwoFactorVerified = false;
+  bool get isTwoFactorVerified => _isTwoFactorVerified;
+
+  void setTwoFactorVerified(bool status) {
+    _isTwoFactorVerified = status;
+    notifyListeners();
+  }
+
   void setOnboardingComplete() {
     _onboardingComplete = true;
     notifyListeners();
@@ -99,8 +108,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) =>
-              appStateNotifier.loggedIn ? HomeWidget() : SignInWidget(),
+          builder: (context, _) => appStateNotifier.loggedIn
+              ? (appStateNotifier.isTwoFactorVerified
+                  ? HomeWidget()
+                  : TwoFactorAuthenticationWidget())
+              : SignInWidget(),
         ),
         FFRoute(
           name: 'SignIn',
@@ -122,6 +134,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'signUp',
           path: '/signUp',
           builder: (context, params) => SignUpWidget(),
+        ),
+        FFRoute(
+          name: 'twoFactorAuthentication',
+          path: '/twoFactorAuthentication',
+          builder: (context, params) => TwoFactorAuthenticationWidget(),
         ),
         FFRoute(
           name: 'onboard',
