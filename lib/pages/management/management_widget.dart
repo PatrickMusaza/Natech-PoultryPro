@@ -28,141 +28,132 @@ class _ManagementWidgetState extends State<ManagementWidget> {
 
   final List<Map<String, String>> _items = [
     {
-      'question':
-          'What are the factors affecting broiler chicken production costs?',
-      'answer':
-          'Factors that affect broiler chicken production costs include feed prices, labor costs, energy costs, and the cost of medications and vaccines. Feed prices can have a significant impact on overall production costs as feed typically accounts for the largest expense in raising broiler chickens. Labor costs, including wages and benefits for farm workers, also play a role in determining production costs. Energy costs, such as electricity and heating, are necessary to maintain suitable conditions in broiler houses, and fluctuations in energy prices can affect production costs. Additionally, the cost of medications and vaccines to prevent and treat diseases in broiler chickens is another important factor to consider when calculating production costs.'
+      "question": "What is a Broiler?",
+      "answer":
+          "Broilers are poly-hybrid birds that grow quickly with a high meat content and have a good feed conversion capacity. They can survive up to two out of 100 birds with proper management. Male broilers may grow faster than females, but some breeds may not show this difference. Proper broiler production requires a well-structured production cyclogram, which includes mis-en-place, husbandry, marketing, and service periods. This helps build relationships with business partners like feed suppliers, chick suppliers, and consumers of broiler meat and by-products like feathers and manure. A cyclogram helps build relationships with these partners."
     },
     {
-      'question': 'How do feed prices impact broiler chicken production costs?',
-      'answer':
-          'Feed prices have a substantial impact on broiler chicken production costs. Feed typically accounts for the largest expense in raising broiler chickens, making up around 70% of the total production costs. Fluctuations in feed prices, which are influenced by factors such as weather conditions, crop yields, and global demand, can significantly affect the profitability of broiler chicken production. When feed prices increase, producers may face higher production costs, which can reduce profit margins. Conversely, lower feed prices can lead to reduced production costs, allowing producers to potentially increase their profit margins. Therefore, closely monitoring and managing feed prices is crucial for maximizing profitability in broiler chicken production.'
+      "question": "What is the Aim of Broiler Production?",
+      "answer":
+          "Broiler production aims to meet consumer standards in carcass quality and weight, while also reducing production costs. Breeding advances in broiler parent stocks have enabled broiler keepers to exploit their output potentials. This involves intensification, where feed intake and growth rates can be influenced to shorten the fattening period and reduce feed intake while still achieving desired outputs in slaughter weight and carcass quality. Farmers can achieve these output parameters with available feeds and minimal management under a deep litter system without the use of synthetic boosters."
     },
     {
-      'question': 'How do labor costs impact broiler chicken production costs?',
-      'answer':
-          'Labor costs have a direct impact on broiler chicken production costs. Hiring and managing skilled labor is essential for efficient broiler chicken production. Labor costs include wages, benefits, and other expenses associated with employing farm workers. The number of workers required depends on the size of the operation and the level of automation utilized. Higher labor costs can increase production expenses, reducing profit margins. Conversely, efficient labor management and optimization can help control costs and improve overall profitability. It is essential for producers to carefully analyze and optimize labor costs to ensure a cost-effective and efficient broiler chicken production system.'
+      "question": "What Do We Mean by Mortality Rate in Broilers?",
+      "answer":
+          "Mortality rates refer to deaths caused by inherent or managerial causative effects. In broilers, the genetically expected mortality rate is around 2%, while managerial causative effects, resulting from weaknesses and failures in management systems, are around 3%. This results in a mortality rate in broiler production of 5%."
     },
     {
-      'question':
-          'How do energy costs impact broiler chicken production costs?',
-      'answer':
-          'Energy costs play a significant role in broiler chicken production costs. Energy is required for heating, ventilation, lighting, and other essential functions in broiler houses. Electricity and fuel costs can vary depending on factors such as location, energy source, and seasonality. Fluctuations in energy prices can impact production costs, directly affecting profitability. Efficient energy management, including the use of energy-efficient equipment and technologies, can help minimize costs. Additionally, optimizing temperature control systems and implementing proper insulation measures can reduce energy consumption and lower production expenses. Monitoring energy prices, adopting energy-saving practices, and exploring renewable energy sources can all contribute to reducing energy costs in broiler chicken production.'
+      "question": "What Are Stocking Rates for Broilers?",
+      "answer":
+          "Stocking rate is the number of birds a square meter can hold during bird rearing, typically 10-12 birds per square meter. Commercial farmers use this rate to justify using specific rearing systems or cyclograms. The same rate per square meter may result in different stocking rates per annum per square meter depending on the system and cyclogram used."
     },
     {
-      'question':
-          'How do medication and vaccine costs impact broiler chicken production costs?',
-      'answer':
-          'The cost of medications and vaccines is an important consideration in broiler chicken production. Preventing and treating diseases is crucial for maintaining healthy flocks and maximizing production efficiency. The cost of medications and vaccines can vary depending on the type of product, the size of the operation, and the prevalence of diseases in the region. Regular vaccinations and proper biosecurity measures can help reduce the risk of disease outbreaks, minimizing the need for expensive treatments. Producers need to carefully budget for medication and vaccine costs, ensuring sufficient resources are allocated for disease prevention and control. Effective disease management strategies can help minimize production losses and ensure a profitable broiler chicken production system.'
+      "question":
+          "What Are Some Examples of Stocking Rates Used in Broiler Production?",
+      "answer":
+          "In traditional production, the stocking rate per meter squared is 50 birds per meter annually. High-intensity production: 60 birds per square meter each year. Sivyham Production: Stocking rate per meter squared = 60 birds/m/year."
     },
     {
-      'question':
-          'What are the main feed ingredients used in broiler chicken production?',
-      'answer':
-          'The main feed ingredients used in broiler chicken production include corn, soybean meal, wheat, and other grains. These ingredients provide the necessary energy, protein, vitamins, and minerals required for the growth and development of broiler chickens. Corn, in particular, is commonly used as a primary energy source in broiler diets due to its high starch content. Soybean meal is a valuable protein source, providing essential amino acids necessary for muscle development. Wheat and other grains are often included to diversify the nutrient profile of the feed and enhance palatability. Additionally, feed additives such as vitamins, minerals, and enzymes are incorporated to optimize broiler performance and health. Careful formulation and balancing of feed ingredients are essential to meet the nutritional requirements of broiler chickens and achieve optimal production outcomes.'
+      "question": "How Many Birds Should One Start With?",
+      "answer":
+          "The correct answer is to start with as many broilers as you can sell in three days and as many as the available facilities can hold. The focus should be on management and marketing rather than just numbers."
     },
     {
-      'question':
-          'How does the quality of feed impact broiler chicken production costs?',
-      'answer':
-          'The quality of feed has a significant impact on broiler chicken production costs. High-quality feed can improve broiler performance, growth rates, and feed conversion efficiency. It helps ensure that broiler chickens receive the necessary nutrients for optimal growth and development, reducing the risk of nutrient deficiencies or imbalances. By providing a balanced diet, high-quality feed can contribute to better feed utilization and minimize the amount of feed wasted. In contrast, poor-quality feed can lead to reduced growth rates, lower feed conversion efficiency, and decreased overall performance. This can result in increased production costs as more feed is required to achieve the desired growth targets. Therefore, investing in high-quality feed and regularly monitoring its nutritional composition is critical for maximizing profitability in broiler chicken production.'
+      "question": "How Many Birds Can One Sell in Three Days?",
+      "answer":
+          "Community-specific outlet facilities and eating habits influence the preference for broilers. Farmers must discover these factors to ensure high three-day sales. Marketing issues such as location, price, quality, packaging, and merchandising all play a role in influencing sales."
     },
     {
-      'question':
-          'What are some strategies to reduce broiler chicken production costs?',
-      'answer':
-          'Several strategies can be implemented to reduce broiler chicken production costs and improve profitability. One approach is to optimize feed management, including formulating diets that meet the specific nutritional requirements of broiler chickens. By formulating feed rations accurately, producers can minimize feed wastage and ensure efficient utilization of nutrients. Implementing proper biosecurity measures and disease prevention programs can also help reduce production costs. By preventing the occurrence of diseases, producers can avoid the expenses associated with treatments and production losses. Efficient use of energy, such as utilizing energy-saving equipment and adopting renewable energy sources, can contribute to cost reduction. Finally, adopting innovative production techniques and technologies, such as precision farming and automation, can enhance productivity and reduce labor costs. Regular monitoring of key performance indicators and benchmarking against industry standards can help identify areas for improvement and cost-saving opportunities.'
+      "question": "What Is the Capacity of the Available Facilities?",
+      "answer":
+          "The design of the broiler house and the equipment employed, like feeders and drinkers, can be used to evaluate the capacity of the facilities. By multiplying the usable floor space by the number of birds per square meter (typically 10 birds per square meter), one can determine the ideal population density. For example, 1000 birds can be housed in a facility with 100 square meters of usable floor space."
     },
     {
-      'question':
-          'What are the benefits of using automated systems in broiler chicken production?',
-      'answer':
-          'Using automated systems in broiler chicken production offers several benefits. Automation can help improve labor efficiency by reducing the need for manual tasks, such as feeding and watering. It can also ensure more precise and consistent feeding, resulting in better feed utilization and improved growth rates. Automated systems can monitor and control environmental conditions, such as temperature and ventilation, ensuring optimal conditions for broiler health and performance. Additionally, automated systems can provide real-time data on key performance indicators, allowing producers to make informed decisions and implement timely interventions. These systems can also help optimize resource utilization, such as feed and energy, leading to cost savings. Overall, the use of automated systems in broiler chicken production can enhance productivity, efficiency, and profitability.'
+      "question":
+          "What Are the Common Three Mistakes One Shouldn’t Make When Deciding How Many Chicks to Start With?",
+      "answer":
+          "1. Never forget the factors, be more than a producer, and investigate the business. 2. Don't let the availability of cash lead you to get more chicks. 3. Don't let lower chick prices urge you to order more chicks."
     },
     {
-      'question':
-          'How can producers optimize broiler chicken housing to reduce production costs?',
-      'answer':
-          'Optimizing broiler chicken housing can contribute to reducing production costs. Proper ventilation is crucial to maintain optimal air quality and temperature inside the houses. Well-designed ventilation systems can help minimize energy consumption by efficiently exchanging air and removing moisture and odors. Adequate insulation can reduce heating and cooling requirements, resulting in energy savings. Optimal stocking density ensures sufficient space for each bird, preventing overcrowding and reducing stress-related issues. Efficient lighting systems can also help reduce energy costs. Finally, implementing proper biosecurity measures, such as strict sanitation protocols and controlled access to the farm, can minimize the risk of disease outbreaks, reducing the need for costly treatments and production losses. By optimizing broiler chicken housing, producers can enhance bird welfare, improve performance, and achieve cost savings.'
+      "question": "What Is a Broiler Production Cyclogram?",
+      "answer":
+          "A production cyclogram is a controlled production cycle. It starts on the day one batch of broilers arrives and finishes on the day the next group arrives. It consists of Mis-en-place (preparatory operations), husbandry (fattening operations), marketing, and the service period."
     },
     {
-      'question':
-          'What are some challenges in broiler chicken production cost management?',
-      'answer':
-          'Broiler chicken production cost management can pose several challenges for producers. Fluctuating feed prices can make it difficult to predict and control production costs. Changes in labor availability and wage rates can impact labor costs, requiring producers to adapt their workforce management strategies. Energy costs can be unpredictable due to market fluctuations and seasonal variations. Disease outbreaks can also have a significant impact on production costs, requiring additional expenses for treatments and potentially resulting in production losses. Furthermore, maintaining accurate records and tracking expenses can be time-consuming and challenging, especially for small-scale producers. Overcoming these challenges requires careful planning, regular monitoring, and implementing effective cost management strategies to ensure a profitable broiler chicken production system.'
+      "question": "When Should I Put Litter in the Broiler House?",
+      "answer":
+          "Two days before the chicks are brought in, litter should be put on the floor of the broiler house. This allows the litter and the dust from the litter to settle. Ensure a thickness of not less than 10cm on the floor."
     },
     {
-      'question':
-          'Why is monitoring production costs important in broiler chicken production?',
-      'answer':
-          'Monitoring production costs is crucial for broiler chicken producers to ensure profitability and make informed business decisions. By tracking expenses, producers can identify areas of high expenditure and implement cost-saving measures. Regular monitoring enables producers to evaluate the financial performance of their operations, assess the effectiveness of management strategies, and make adjustments as necessary. It helps in identifying trends and patterns in cost fluctuations, such as changes in feed prices or labor costs, allowing producers to plan and budget accordingly. Effective cost monitoring can also aid in benchmarking against industry standards, identifying areas for improvement, and setting realistic production targets. By staying aware of production costs, producers can optimize their operations, maximize efficiency, and maintain a sustainable and profitable broiler chicken production system.'
+      "question": "How Should I Provide Warmth for My Broilers?",
+      "answer":
+          "The broiler house should be heated to no more than 33 degrees Celsius. A brooder ring or a centrally heated system can be used. At least four hours before the chicks' arrival, the broiler house should be heated."
     },
     {
-      'question':
-          'How can benchmarking help in managing broiler chicken production costs?',
-      'answer':
-          'Benchmarking can be a valuable tool for managing broiler chicken production costs. By comparing key performance indicators, such as feed conversion ratio and mortality rate, with industry benchmarks, producers can evaluate their cost efficiency and identify areas for improvement. Benchmarking provides insights into best practices and allows producers to set realistic production targets. It also helps in identifying potential cost-saving opportunities by highlighting areas where performance lags behind industry standards. By continuously monitoring and benchmarking performance, producers can implement targeted improvements, optimize resource utilization, and enhance cost efficiency. This enables them to stay competitive in the market and maintain a profitable broiler chicken production system.'
+      "question":
+          "What About Provision of Vitamin Solutions to Day-Old Chicks?",
+      "answer":
+          "An hour before chicks come in, vitamin solution should be put in fount drinkers to facilitate its rise in temperature to 21 degrees Celsius. One 1-liter fount drinker should be made available to cater for 25 chicks."
     },
     {
-      'question':
-          'How can precision farming techniques help in optimizing broiler chicken production costs?',
-      'answer':
-          'Precision farming techniques can play a significant role in optimizing broiler chicken production costs. These techniques involve the use of advanced technologies, such as sensors, data analytics, and automation, to monitor and manage various aspects of production. By collecting real-time data on factors like feed consumption, growth rates, and environmental conditions, producers can make data-driven decisions to improve efficiency and reduce costs. Precision feeding systems can provide accurate and timely feed distribution, minimizing feed wastage and optimizing nutrient utilization. Environmental sensors can help maintain optimal temperature, humidity, and air quality, reducing energy consumption and improving broiler performance. Additionally, data analytics can identify patterns and trends, enabling proactive interventions to prevent production losses and optimize resource allocation. Overall, precision farming techniques offer a comprehensive and efficient approach to broiler chicken production, resulting in cost savings and improved profitability.'
+      "question": "What About Provision of Light to Day-Old Chicks?",
+      "answer":
+          "A light intensity of 3 watts/square meter in the first week should be facilitated. Ensure that the broiler house is well lit before the chicks are brought in."
     },
     {
-      'question':
-          'How does the scale of production affect broiler chicken production costs?',
-      'answer':
-          'The scale of production can have a significant impact on broiler chicken production costs. As the scale increases, producers can benefit from economies of scale, which can reduce production costs. Bulk purchasing of inputs, such as feed and medications, can lead to lower costs per unit. Larger operations may also have access to more efficient and cost-effective technologies, such as automated systems, which can enhance productivity and reduce labor costs. Additionally, larger operations may have better bargaining power with suppliers, enabling them to negotiate favorable prices for inputs. However, scaling up production also brings challenges, such as the need for additional managerial expertise, increased infrastructure requirements, and more complex logistics. Careful planning and analysis are essential when considering scaling up production to ensure that the potential benefits outweigh the associated costs.'
+      "question":
+          "Are There Other Hygiene Factors One Should Consider Before Bringing in Day-Old Chicks?",
+      "answer":
+          "Foot baths by the doors should be provided in readiness for the coming in of broilers."
     },
     {
-      'question':
-          'What role do genetics play in broiler chicken production costs?',
-      'answer':
-          'Genetics play a crucial role in broiler chicken production costs. Selecting broiler breeds with desirable genetic traits, such as fast growth rates, high feed conversion efficiency, and disease resistance, can significantly impact production costs. Fast-growing broiler strains can reach market weight more quickly, reducing the time and resources required for production. High feed conversion efficiency allows broilers to convert feed into body weight more efficiently, minimizing feed wastage and reducing feed costs. Disease-resistant breeds can help lower medication expenses and reduce the risk of production losses due to disease outbreaks. Therefore, careful selection of broiler genetics is essential to optimize production efficiency, minimize costs, and maximize profitability in broiler chicken production.'
+      "question":
+          "What Is Meant by Water and Drinker Management in Broiler Production?",
+      "answer":
+          "Water must be provided from the first minute of arrival in the form of a vitamin solution and should be available all the time. Drinkers should be washed every day and hung such that the bases of the drinkers are level with the backs of the chickens."
     },
     {
-      'question':
-          'How does the market price of broiler chickens affect production costs?',
-      'answer':
-          'The market price of broiler chickens directly affects production costs. Producers need to consider the selling price of broiler chickens when calculating production costs and determining profit margins. Market prices can be influenced by various factors, such as supply and demand dynamics, consumer preferences, and competition. When market prices are high, producers may enjoy higher profit margins, offsetting higher production costs. However, when market prices are low, producers may face lower profit margins or even losses if production costs exceed the selling price. Therefore, monitoring market trends and adjusting production strategies accordingly is crucial for maintaining a profitable broiler chicken production system. Producers may need to adapt their production volumes, marketing strategies, or product differentiation to align with market demand and optimize profitability.'
+      "question":
+          "What Is Meant by Feed and Feeder Management in Broiler Production?",
+      "answer":
+          "Feed should be made available 30 minutes after the introduction of vitamin solution to chicks and should be provided all the time. Ad-libitum feeding is encouraged. Feeders should be cleaned at least twice per week and changed according to the cyclogram used."
     },
     {
-      'question':
-          'How can effective financial management contribute to reducing broiler chicken production costs?',
-      'answer':
-          'Effective financial management plays a vital role in reducing broiler chicken production costs. By maintaining accurate and up-to-date financial records, producers can identify areas of high expenditure and implement cost-saving measures. Budgeting and cash flow management help in planning and allocating resources effectively, ensuring that production costs are within budgeted limits. Regular financial analysis, including assessing financial ratios and performance indicators, can help identify inefficiencies and areas for improvement. Financial management techniques, such as cost accounting and variance analysis, enable producers to track and control costs throughout the production process. Additionally, managing working capital, such as inventory and accounts payable, optimizes cash flow and reduces financing costs. By implementing effective financial management practices, producers can enhance cost control, improve profitability, and maintain a sustainable broiler chicken production system.'
+      "question":
+          "What Is Meant by Heat and Heater Management in Broiler Production?",
+      "answer":
+          "There are two systems used in broiler house heating: the whole room heating system and the combined heating system. Temperature should be regulated based on the age of the broilers, and heat sources should hang at least 10 cm above the heads of the broilers."
     },
     {
-      'question':
-          'What role does technology play in managing broiler chicken production costs?',
-      'answer':
-          'Technology plays a crucial role in managing broiler chicken production costs. Advanced technologies, such as automated systems, sensors, data analytics, and precision farming techniques, can optimize various aspects of production, resulting in cost savings. Automated feeding and watering systems ensure precise and consistent delivery, minimizing feed and water wastage. Environmental sensors and control systems help maintain optimal conditions, reducing energy consumption and improving production efficiency. Data analytics can provide insights into performance patterns, facilitating proactive interventions to prevent production losses and optimize resource allocation. Additionally, technology enables real-time monitoring and remote management, allowing producers to make informed decisions and respond promptly to changing conditions. By harnessing the power of technology, producers can streamline operations, improve efficiency, and reduce costs in broiler chicken production.'
+      "question": "What Is Litter Management?",
+      "answer":
+          "Litter should be forked at least once per week to avoid the formation of hardpan and over-wetting. Ensure proper ventilation and a thickness of not less than 10cm on the floor at all times."
     },
     {
-      'question':
-          'What are the key components of a broiler chicken production cost analysis?',
-      'answer':
-          'A broiler chicken production cost analysis typically includes several key components. Feed costs, including the cost of ingredients, formulation, and delivery, are a significant component as feed accounts for the largest expense. Labor costs, including wages, benefits, and management expenses, also play a crucial role in production costs. Energy costs, such as electricity and heating, are important considerations, as they are necessary for maintaining suitable conditions in broiler houses. Medication and vaccine costs, including preventative measures and treatments, are essential for disease prevention and control. Other components may include housing and equipment costs, transportation and logistics expenses, and administrative and overhead costs. By analyzing these components and tracking expenses, producers can gain a comprehensive understanding of their production costs, identify areas for improvement, and implement cost-saving measures.'
+      "question": "What Is Meant by Light Management in Broiler Production?",
+      "answer":
+          "A 24-hour light program is essential for broilers. Light intensity should be controlled, with a high intensity of more than 3 watts/square meter in the first week and more than 1 watt/square meter from the fourth week onwards."
     },
     {
-      'question':
-          'How can producers manage broiler chicken production costs during periods of high feed prices?',
-      'answer':
-          'Managing broiler chicken production costs during periods of high feed prices requires careful planning and proactive measures. Firstly, producers can explore alternative feed ingredients or feed formulations that offer cost savings without compromising nutritional requirements. Working closely with nutritionists and feed suppliers can help identify suitable alternatives. Secondly, optimizing feed management practices, such as reducing feed wastage and improving feed conversion efficiency, can help minimize the impact of high feed prices. Implementing proper biosecurity measures and disease prevention programs can also protect against production losses that would further increase costs. Additionally, closely monitoring market trends and adjusting production volumes or marketing strategies can help align supply with demand and optimize profitability. Finally, exploring risk management strategies, such as forward contracting or hedging, can provide some protection against price volatility. By adopting these measures, producers can navigate periods of high feed prices and maintain a sustainable broiler chicken production system.'
+      "question": "What Is a Traditional Broiler Production Cyclogram?",
+      "answer":
+          "The traditional production cyclogram is an 8+2 week cycle, allowing farmers to grow broilers at least five times a year in the same building. It requires only 10 birds per square meter and is recommended for beginners."
     },
     {
-      'question':
-          'What are the benefits of using cost accounting in broiler chicken production?',
-      'answer':
-          'Using cost accounting in broiler chicken production offers several benefits. Cost accounting provides a detailed breakdown of production costs, enabling producers to identify and analyze individual cost components. This allows for better cost control and helps in identifying areas for cost'
+      "question": "What Is an Intensive Broiler Production Cyclogram?",
+      "answer":
+          "The intensive production cyclogram is a high-yielding cyclogram that allows farmers to crop 6.5 times per year, with up to 12 birds per square meter. It requires tip-top management and is most effective in cool seasons."
     },
     {
-      'question':
-          'What is the importance of understanind Broiler Chicken Production Costs',
-      'answer':
-          'In conclusion, understanding broiler chicken production costs is essential for poultry farmers and industry stakeholders. By analyzing the various factors that contribute to the overall cost, farmers can make informed decisions that optimize their profitability and sustainability. Firstly, feed costs play a significant role in broiler chicken production expenses. The cost of feed constitutes a substantial portion of the overall production costs, and fluctuations in feed prices can greatly impact a farmer’s bottom line. Therefore, it is crucial for farmers to carefully monitor and manage their feed costs by exploring cost-effective alternatives and optimizing feed conversion efficiency. Secondly, labor costs should also be considered when assessing broiler chicken production expenses. From managing the flock to maintaining the facilities, labor is an essential component of the production process. Farmers need to strike a balance between efficient labor utilization and ensuring the welfare and well-being of the chickens. Implementing automation and efficient labor management strategies can help optimize productivity and reduce labor costs. Lastly, energy costs are another significant factor that affects broiler chicken production costs. Heating, lighting, ventilation, and other energy-intensive operations contribute to the overall expenses. Farmers can explore energy-efficient solutions, such as utilizing renewable energy sources and implementing energy management systems, to mitigate the impact of rising energy costs. In conclusion, understanding the various factors that contribute to broiler chicken production costs is crucial for farmers to optimize their profitability and sustainability. By carefully managing feed costs, labor expenses, and energy usage, farmers can make informed decisions that positively impact their bottom line while ensuring the welfare of the chickens. Continuous monitoring and adaptation to changing market conditions are key in maintaining a successful broiler chicken production operation'
+      "question": "What Is the Sivyham Broiler Production Cyclogram?",
+      "answer":
+          "The Sivyham cyclogram is a 7+2 week production cycle that allows for a stocking rate of 11 birds per square meter and requires medium management skill. It can be used throughout the year."
     },
+    {
+      "question": "What Are the Ten Commandments of Broiler Production?",
+      "answer":
+          "1. Ensure proper housing.\n2. Ensure that the litter is clean and dry.\n3. Ensure there is enough clean water and food all the time.\n4. Never mix different age groups.\n5. Broilers only—don’t mix broilers with other birds.\n6. No free-range chickens nearby.\n7. No non-broiler workers in broiler houses.\n8. Sterilize (disinfect) between batches.\n9. Watch for signs of sickness.\n10. Vaccinate against diseases."
+    }
   ];
 
   int _expandedIndex = -1; // Track expanded item; -1 if none are expanded
@@ -327,7 +318,7 @@ class _ManagementWidgetState extends State<ManagementWidget> {
                                   color:
                                       FlutterFlowTheme.of(context).primaryText,
                                   offset: Offset(0, 2),
-                                  blurRadius: 2.0,
+                                  blurRadius: 0.0,
                                 ),
                               ],
                             ),
